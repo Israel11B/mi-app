@@ -1,0 +1,16 @@
+LOS PIBES DE CLARITA — APLICACIÓN MÓVIL
+
+Este paquete contiene la web app progresiva (PWA) para Android y iPhone, con sus fotos, escudo, fixture, sección de fútbol sala y video.
+
+INSTALAR EN ANDROID
+1. Publica el contenido de esta carpeta en un alojamiento web con HTTPS.
+2. Abre la dirección del sitio en Chrome.
+3. Elige “Instalar aplicación” o “Añadir a pantalla de inicio”.
+
+INSTALAR EN IPHONE
+1. Publica el contenido de esta carpeta en un alojamiento web con HTTPS.
+2. Abre la dirección del sitio en Safari.
+3. Toca Compartir y luego “Añadir a pantalla de inicio”.
+
+NOTA
+Los navegadores móviles requieren HTTPS para instalar la PWA y habilitar el modo sin conexión. Este paquete es una aplicación web instalable; no incluye un APK firmado para Google Play ni un IPA firmado para App Store.
