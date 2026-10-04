@@ -1,0 +1,15 @@
+PROYECTO EDITABLE — LOS PIBES DE CLARITA
+
+ARCHIVO PRINCIPAL
+Abre index.html con un editor de texto o de código para modificar la página.
+
+RECURSOS
+- images/: fotos, escudos, auspiciantes y fixtures usados por la web.
+- videos/: video de fútbol sala.
+- manifest.webmanifest y sw.js: configuración de la aplicación instalable y funcionamiento sin conexión.
+
+PARA CONSERVAR EL SITIO FUNCIONAL
+Mantén index.html junto a las carpetas images y videos. Si cambias o agregas imágenes/videos, colócalos en esas carpetas y actualiza la ruta en index.html.
+
+Para instalar la web app en Android o iPhone, publica el contenido en un alojamiento HTTPS y sigue las instrucciones de LEEME-INSTALACION.txt.
+Las instalaciones móviles comprueban el sitio publicado cada cinco minutos mientras la app está abierta. Después de editar index.html, publica los archivos actualizados en el mismo alojamiento HTTPS para que los teléfonos reciban los cambios.

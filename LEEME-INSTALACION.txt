@@ -14,3 +14,5 @@ INSTALAR EN IPHONE
 
 NOTA
 Los navegadores móviles requieren HTTPS para instalar la PWA y habilitar el modo sin conexión. Este paquete es una aplicación web instalable; no incluye un APK firmado para Google Play ni un IPA firmado para App Store.
+ACTUALIZACIONES AUTOMÁTICAS
+Cuando se publique una nueva versión en la misma dirección HTTPS, la app revisará los cambios al abrirse y cada cinco minutos mientras esté visible. Se recargará automáticamente cuando encuentre una versión nueva. Para que otros teléfonos la reciban, hay que subir los archivos actualizados al alojamiento web.
