@@ -1,4 +1,4 @@
-const CACHE = 'pibes-clarita-v18';
+const CACHE = 'pibes-clarita-v19';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/club.svg', './icons/ios-icon.png', './icons/icon-192.png', './icons/icon-512.png', ...[1,2,3,4,5,6,7,8,11,12,13,14].map(n => './images/' + n + '.jpeg'), ...['a','b','c','d'].map(n => './images/' + n + '.jpeg'), './images/escudo-oficial.png', './images/fixture-primera-etapa.jpeg', './videos/futsal.mp4'];
 self.addEventListener('install', event => event.waitUntil((async()=>{const cache=await caches.open(CACHE);await Promise.all(FILES.map(async file=>{const response=await fetch(file,{cache:'reload'});if(response.ok)await cache.put(file,response)}));await self.skipWaiting()})()));
 self.addEventListener('activate', event => event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)));await self.clients.claim()})()));
